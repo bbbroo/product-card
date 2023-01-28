@@ -24,7 +24,9 @@ body {
     justify-content: end;
 }
 
-
+.desktop-img {
+    display: none;
+}
 
 .item-image {
     flex: 1;
@@ -105,3 +107,30 @@ body {
     background-color: hsl(212, 21%, 14%);
     cursor: pointer;
 }
+
+@media screen and (min-width: 410px) {
+    .card-items {
+        flex-direction: row;
+    }
+    .mobile-img {
+        display: none;
+    }
+
+    .desktop-img {
+        display: block;
+    }
+
+    .card {
+        width: 400px;
+        height: 320px;
+        overflow: hidden;
+    }
+
+    .item-image img {
+        
+    }
+
+    .item-image {
+        flex: 1 200%;
+    }
+  }
