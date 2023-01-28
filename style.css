@@ -126,10 +126,6 @@ body {
         overflow: hidden;
     }
 
-    .item-image img {
-        
-    }
-
     .item-image {
         flex: 1 200%;
     }
