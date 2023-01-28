@@ -108,7 +108,7 @@ body {
     cursor: pointer;
 }
 
-@media screen and (min-width: 410px) {
+@media screen and (min-width: 450px) {
     .card-items {
         flex-direction: row;
     }
