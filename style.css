@@ -1,17 +1,20 @@
+body {
+    min-height: 100vh;
+    min-height: fill-available;
+    min-height: -webkit-fill-available;
+}
+
 html {
+    height: fill-available;
     height: -webkit-fill-available;
-  }
+}
 
 body {
     background-color: hsl(30, 38%, 92%);
     display: flex;
+    margin: 0;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    height: -webkit-fill-available;
-    width: 100vw;
-    margin: 0;
-    padding: 0;
 }
 
 .card {
